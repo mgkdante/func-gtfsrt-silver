@@ -1,12 +1,6 @@
 {
   "scriptFile": "__init__.py",
   "bindings": [
-    {
-      "name": "myblob",
-      "type": "blobTrigger",
-      "direction": "in",
-      "path": "bronze/tripupdates_20251016020324.pb",
-      "connection": "BRONZE_CONN"
-    }
+    { "type": "eventGridTrigger", "name": "event", "direction": "in" }
   ]
 }
