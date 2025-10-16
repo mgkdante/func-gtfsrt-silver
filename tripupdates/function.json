@@ -5,7 +5,7 @@
       "name": "myblob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "bronze/raw/gtfsrt/tripupdates/{*path}.pb",
+      "path": "bronze/raw/gtfsrt/tripupdates/dt={date}/hr={hour}/{filename}.pb",
       "connection": "BRONZE_CONN"
     }
   ]

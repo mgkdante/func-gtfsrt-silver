@@ -5,6 +5,7 @@ from azure.storage.blob import BlobServiceClient
 from datetime import datetime, timezone
 from shared.gtfs_parsers import parse_tripupdates
 
+
 ACCOUNT_URL = os.getenv("ACCOUNT_URL")                   # https://stdatalaketransitdemo.blob.core.windows.net
 SILVER_CONTAINER = os.getenv("SILVER_CONTAINER", "silver")
 _DT_RE = re.compile(r"dt=(\d{4}-\d{2}-\d{2})")
