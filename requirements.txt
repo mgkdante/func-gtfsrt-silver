@@ -1,0 +1,6 @@
+azure-functions
+azure-identity>=1.16.0
+azure-storage-blob>=12.20.0
+gtfs-realtime-bindings>=0.0.7
+pandas>=2.2.2
+pyarrow>=16.1.0

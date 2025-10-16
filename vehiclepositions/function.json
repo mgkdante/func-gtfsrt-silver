@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "bronze/raw/gtfsrt/vehiclepositions/{*path}.pb",
+      "connection": "BRONZE_CONN"
+    }
+  ]
+}
