@@ -8,7 +8,9 @@ import azure.functions as func
 from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobServiceClient
 
-from shared.gtfs_parsers import parse_tripupdates
+#from shared.gtfs_parsers import parse_tripupdates
+
+def parse_tripupdates(_): return []
 
 # === CONFIG ===
 ACCOUNT_URL = os.getenv("ACCOUNT_URL")  # e.g. https://stdatalaketransitdemo.blob.core.windows.net
