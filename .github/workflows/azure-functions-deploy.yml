@@ -34,4 +34,4 @@ jobs:
         uses: Azure/functions-action@v1
         with:
           app-name: 'transitdemo'
-          package: './func-gtfsrt-silver'
+          package: '.'
